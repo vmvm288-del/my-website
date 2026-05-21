@@ -1489,3 +1489,35 @@ nav a:hover {
     transition: none !important;
   }
 }
+.price-tag{
+    display:inline-block;
+    margin-top:18px;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    font-size:.9rem;
+    font-weight:700;
+
+    color:#fff;
+
+    background:linear-gradient(
+      135deg,
+      #ff8dc7,
+      #ffb86c
+    );
+
+    box-shadow:
+      0 0 20px rgba(255,145,196,.45);
+
+    letter-spacing:1px;
+
+    transition:.3s;
+}
+
+.service-card:hover .price-tag{
+    transform:translateY(-2px);
+    box-shadow:
+      0 0 28px rgba(255,145,196,.7);
+}
